@@ -1,6 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './logo.svg'; // декларативный стиль
+import './App.css'; // декларативный стиль
 
+// Далее также декларативный стиль
 export const App = () => {
 	const currentYear = new Date().getFullYear();
 
@@ -19,9 +20,7 @@ export const App = () => {
 				>
 					Learn React
 				</a>
-				<div className="App-link" target="_blank" rel="noopener noreferrer">
-					{currentYear}
-				</div>
+				<div className="App-link">{currentYear}</div>
 			</header>
 		</div>
 	);
